@@ -946,7 +946,7 @@ window.keyshotXR = function (
     b = "top:  0px;";
     b += "left: 0px;";
     // b += "overflow: hidden;";
-    b += "position:absolute; object-fit:cover";
+    b += "position:absolute; object-fit:contain";
     b += z + "user-select: none;";
     // s.setAttribute("style", b);
     v.appendChild(s);
@@ -956,7 +956,7 @@ window.keyshotXR = function (
     b += "left: 0px;";
     b += "position:absolute;";
     b += z + "user-select: none;";
-    l.setAttribute("style", "object-fit:cover; height:100%; width:100%; aspect-ratio:4/3;");
+    l.setAttribute("style", "object-fit:contain; height:100%; width:100%; aspect-ratio:4/3;");
     s.appendChild(l);
     W = l;
     G = function () {
